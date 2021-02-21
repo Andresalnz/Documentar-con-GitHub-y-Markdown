@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semana Santa</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <div class="container">
+        <header class="header">
+            <!--Aqui empieza el carruse de fotos del encabezado-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="media/acordeon/tour-cadiz-medieval.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/acordeon/excursion-jerez-cadiz.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/acordeon/visita-catedral-torre-tavira.jpg" class="d-block w-100" alt="...">
+                    </div>               
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!--Aqui comienza el menu-->
+            <div class="menu">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="calles-plazas.html">Calles y plazas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="museos.html">Museos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!--submenu-->
+        <div class="submenu">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Semana Santa</li>
+                </ol>
+            </nav>
+        </div>
+        <!--menu de la semana santa-->
+        <div class="semana-santa-carnaval">
+            <div class="jumbotron">
+                <h1 class="display-4">Semana Santa</h1>
+                <p class="lead">Cádiz vive con pasión su Pasión.</p>
+                <hr class="my-4">                                  
+                <nav class="nav nav-pills flex-column">
+                    <a class="nav-link" href="#item-1">1. Historia</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ml-3 my-1" href="#item-1-1">1.1 Primeras hermandades</a>
+                        <a class="nav-link ml-3 my-1" href="#item-1-2">1.2 El siglo XVII y primera mitad del XVIII</a>
+                        <a class="nav-link ml-3 my-1" href="#item-1-3">1.3 La Semana Santa y la Ilustración</a>
+                        <a class="nav-link ml-3 my-1" href="#item-1-4">1.4 El siglo XIX</a>
+                        <a class="nav-link ml-3 my-1" href="#item-1-5">1.5 El siglo XX</a>
+
+                    </nav>
+                    <a class="nav-link" href="#item-3">2. Fechas fundacionales de las cofradias gaditanas</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ml-3 my-1" href="#item-2-1">2.1 Siglo XVI</a>
+                        <a class="nav-link ml-3 my-1" href="#item-2-2">2.2 Siglo XVII</a>
+                        <a class="nav-link ml-3 my-1" href="#item-2-3">2.3 Siglo XVIII</a>
+                        <a class="nav-link ml-3 my-1" href="#item-2-4">2.4 Siglo XIX</a>
+                        <a class="nav-link ml-3 my-1" href="#item-2-5">2.5 Siglo XX</a>
+                        <a class="nav-link ml-3 my-1" href="#item-2-6">2.6 Siglo XXI</a>
+                    </nav>
+                    <a class="nav-link" href="#item-3">3. Galeria</a>
+                    <a class="nav-link" href="#item-4">4. Videos</a>
+                </nav>
+            </div>
+            <!--datos semana santa-->
+            <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+                <h4 id="item-1">Historia</h4>
+                <hr>
+                <p>Hay procesiones de lujo, austeras, con escenas dramáticas, curiosas y con rivalidades cofrades ancestrales. La Pasión de
+                Cristo convertida en un acto de fe de fe y también en una manifestación propia de las mejores coreografías, en las que
+                no falta la ambientación, la música y el silencio, el olor a cera quemada y a incienso y a flores recién cortadas,
+                porque la vida termina y empieza de nuevo. En cada rincón de la provincia, una Semana Santa singular desde el día 24
+                hasta el 31 de marzo.                
+                En una provincia con tanta historia -y más de 300 Cofradías y Hermandades- la Semana Santa ha tamizado todos los
+                aconteceres y en ella se refleja desde de conquista cristiana de Al-Andalus hasta la huida de Gibraltar.               
+                </p>
+                <h5 id="item-1-1">Primeras hermandades</h5>
+                <hr>
+                <p>Las fuentes bibliográficas no aportan testimonios documentales solventes de cofradías penitenciales anteriores al siglo
+                XVI, aunque es innegable la celebración de vía crucis cuaresmales y en la propia semana pasional de manera espontánea,
+                con una mínima organización a cargo de agrupaciones de devotos ya desde el siglo XIV y sobre todo el XV, iniciadores del
+                fenómeno de la religiosidad pasionista moderna que, tras las misiones apostólicas de las órdenes mendicantes -en
+                especial, franciscanos- adquiere una personalidad propia entre la base popular así como una autonomía consentida por la
+                jerarquía eclesiástica aunque pronto, en aras de una sujeción más efectiva a este fenómeno, decretara medidas de control
+                muy específicas y formalizara la erección de estas asociaciones devocionales como hermandades, aunque ya de facto
+                contaban con una incipiente organización.
+                Las primeras hermandades penitenciales en sus advocaciones, destacando las de la Vera Cruz, Jesús Nazareno y Santo
+                Entierro, de las que se tienen ya noticias ya en el siglo XVI. Las de la Vera Cruz tienen su origen en los conventos de
+                la orden de San Francisco, muy extendidos por la provincia y cuyos frailes, como queda indicado, fueron grandes
+                difusores del uso penitencial. Caben destacar a las hermandades de Arcos de la Frontera o El Puerto de Santa María, de
+                principios de siglo (1505), la de negros de Sanlúcar (1525) o la de Jerez (1542).               
+                En Jerez capital hay un mayor número de hermandades que surgen en esta época, pero en el resto de pueblos y ciudades de
+                la diócesis no ocurre así, al menos en función de la documentación hasta el presente consultada. Aunque fundamentalmente
+                las hermandades se nutren de laicos, es significativo detallar la existencia de una hermandad clerical denominada del
+                Perdón en Arcos de la Frontera con veinticuatro sacerdotes numerarios que rigen la corporación.</p>
+                <h5 id="item-1-2">El siglo XVII y primera mitad del XVIII</h5>
+                <hr>
+                <p>En el siglo XVII se generalizan las hermandades y cofradías en las dos actuales diócesis y comienzan a configurarse las
+                bases de las celebraciones penitenciales en la Semana Santa en el aspecto externo así como la personalidad jurídica
+                esencial de las corporaciones. Pero es ya en el siglo XVIII cuando se consolidan tanto la estructura de las hermandades
+                como la de las procesiones de Semana Santa, que adquieren su canon definitivo, detectándose una etapa de indudable
+                apogeo.                
+                Quisiera referirme en este período a las grandes ceremonias generales que tenían lugar durante la Semana Santa y que
+                eran vividas por el pueblo con espíritu de unidad cofradiera, independientemente de las estaciones de cofradías
+                concretas. Actos de indudable semejanza se hallan documentados en Sevilla en el siglo XVI. En Jerez, por ejemplo, se
+                constatan en el siglo XVIII tres grandes ceremonias: Las Tres Caídas, el Descendimiento y la procesión del Santo
+                Entierro. Las dos primeras tenían efecto durante las estaciones penitenciales de las hermandades del Nazareno y de la
+                Piedad y son claramente relacionables con la del Nazareno de Sevilla la primera y con la ceremonia del Calvario que se
+                llevaba a cabo en el barrio de los Humeros, la segunda. En Rota se celebraba una procesión del Nazareno con Via Crucis y
+                Sermón de Pasión.               
+                Este tipo de ceremonias, muy imbuídas del espíritu efectista del Barroco, revelan sin duda reminiscencias de lo que
+                fueron los orígenes de la propia Semana Santa moderna, antes incluso de las procesiones penitenciales más primitivas y,
+                por supuesto, las específicamente barrocas con sus pasos de Misterio, que de alguna manera plasman esculturalmente estas
+                ceremonias así como las antiguas escenificaciones sacras, a las que aquí no nos referiremos. Huellas de estas ceremonias
+                se detectan todavía en poblaciones muy concretas de España como Bercianos de Aliste (Zamora). En Jerez, a diferencia de
+                Sevilla en donde son prohibidas a principios del siglo XVII, van a pervivir incluso en el XIX unidas al resto de las
+                procesiones en una significativa simbiosis popular y particular de la Semana Santa y las cofradías.               
+                Según Repetto, las cofradías jerezanas no realizaban la estación penitencial -antes de nuestra época a estudio- a un
+                sólo lugar, sino que visitaban siete iglesias, entre ellas la entonces Colegial, con el objetivo de ganar las
+                indulgencias concedidas para las visitas a los Sagrarios. Esta situación se mantendrá hasta que las medidas ilustradas
+                de la segunda mitad del XVIII centralicen las estaciones únicamente a la Colegial. No obstante, Repetto no aduce ningún
+                documento justificativo tanto más cuanto que en la sede metropolitana desde 1604 era obligada la estación a la Catedral
+                de las cofradías de Sevilla y a la parroquia de Santa Ana las de Triana. Puede parecer un tanto extraño que en Jerez se
+                siguiera permitiendo esta práctica de los siete sagrarios que también era común en Sevilla hasta la citada fecha.
+                Ciertamente quizá la situación de inflación que se registraba en Sevilla no se producía en Jerez y no había razón
+                pastoral para la inmediata centralización, pero no está claro tampoco este extremo. Quizá habría que investigar más
+                sobre este punto, tratando de rescatar Reglas posteriores a los primeros años del siglo XVII y anteriores a las citadas
+                medidas ilustradas (aunque es preciso también aclarar que desde 1695 la Colegial estaba cerrada al culto).                
+                Todo ello es importante pues se podría establecer el grado de control de la autoridad eclesiástica sobre estas
+                procesiones y si en Jerez, como estimo, tuvieron real incidencia las disposiciones sinodales de Rodrigo de Castro y Niño
+                de Guevara. Nada de todo este asunto se detalla hasta las normativas ilustradas de la segunda mitad del siglo XVIII y
+                eso hace que resulte difícil enmarcarlas en su justa apreciación.</p>
+                <h4 id="item-1-3">La Semana Santa y la Ilustración</h4>
+                <hr>
+                <p>Es constatable la existencia de impugnadores de las procesiones de Semana Santa y de las propias cofradías entre el
+                clero en el último tercio del siglo XVIII que plantean continuas denuncias ante el gobierno ilustrado acerca de la
+                indignidad de las mismas, su irracionalidad, claras reminiscencias supersticiosas, inutilidad...y abogando por una
+                purificación radical de tales prácticas. El poder civil se involucra directamente en la esfera religiosa y eclesiástica
+                en el marco de los esquemas regalistas de la época y establece diversas disposiciones de control directo sobre
+                instituciones eclesiales y, entre ellas, las hermandades y cofradías, a las que obliga a presentar Reglas ante el
+                ordinario gubernamental del Consejo de Castilla para su aprobación, proceso que culmina en 1783 con una Real Orden
+                suprimiendo a todas aquellas que no cumplan estos requisitos.</p>
+                
+                <p>En el caso de Jerez, que es el más documentado, este clero refractario a la religiosidad popular asume un papel
+                relevante en la figura del Vicario Manuel María Pérez, unido a una actitud tempranamente categórica del Consejo de
+                Castilla extinguiendo las cofradías 12 años antes que en Sevilla y la generalidad de la nación; si bien es cierto que el
+                informe previo y negativo de Olavide fue coetáneo a estos hechos.</p>
+                
+                <p>Ciertamente se observa la existencia de relajación y abusos en este tipo de manifestaciones de religiosidad, lo cual no
+                constituye una novedad (ya a principios del siglo XVII en Sevilla, Niño de Guevara las resaltaba en los cánones del
+                sínodo de 1604), pero sí contrastaba con las ideas ilustradas. El Barroco pervivía entre el pueblo, pero sus
+                manifestaciones religiosas se iban tornando huecas y superficiales. La religión, poco a poco, va dejando ser la única
+                instancia ideológica entre el pueblo, y la cotidianidad tiende a desaparecer. Es sintomático el caso de los rosarios en
+                Sevilla, generadores de continuos disturbios o el del alquiler de flagelantes en las procesiones de sangre, tratando de
+                mantenerse una apariencia, una estética que iba dejando de ser real.</p>
+                
+                <p>Con esto no quiero decir que este tipo de religiosidad dejara de tener arraigo en el pueblo, sino que era precisa una
+                renovación de estas prácticas. En este sentido, por ejemplo, el rosario de la aurora sustituye espontáneamente a las
+                procesiones nocturnas, excesivamente recargadas. Resulta evidente que el pueblo de Jerez sentía como algo propio las
+                procesiones seculares de Semana Santa porque constituía una parte integrante de sus cofradías y participaba activamente
+                en su celebración. Los abusos y corruptelas se constatan como ciertos y se tenía conciencia de ellos, aunque en modo
+                alguno se consideraban índices de una degeneración del fenómeno. Hay que pensar en este sentido que estos abusos fueron
+                magnificados por determinados sectores ilustrados en el poder civil y en el ámbito curial diocesano con el fin
+                inequívoco de renovar desde el Estado estas prácticas que eran rémoras de una religiosidad barroca que perjudicaba el
+                "bienestar" del pueblo. Es el paternalismo propio del Despotismo Ilustrado que, muchas veces sin analizar ni comprender
+                suficientemente esta religiosidad popular, trataba de anularla desde la fuerza de la ley. Necesariamente una política
+                así habría de fracasar, aunque en el caso de Jerez apareciera como un logro oficial. De hecho, resulta extraño que, casi
+                sin mediar informes, se extingan las cofradías. No resulta fácil comprender que, pese a la resistencia popular, las
+                autoridades oficiales pudieran conseguir con relativa facilidad sus propósitos y que las cofradías terminaran plegándose
+                e iniciando una clarísima decadencia tras la crisis. La figura de Pérez concuerda perfectamente con la del alto clero
+                ilustrado de Córdoba o Sevilla.</p>
+                
+                <p>Mientras que en Sevilla las cofradías afrontan el problema y la disposición civil no pasa de ser un trámite jurídico
+                ante un decreto más oficial que efectivo y continuaron desarrollando casi sin traumas su vida activa, en Jerez parece
+                ser que esto no pudo ser posible. Se hace lógico pensar en una cierta decadencia dentro del ámbito cofrade que no pudo
+                resistir esta presión. Cabe decir así que unos años después de la supresión, hermandades como la Vera Cruz o el Nazareno
+                salvan sin muchas dificultades las trabas jurídicas. No obstante, el hecho de prohibir las cofradías no significó que
+                dejaran de celebrarse las procesiones de Semana Santa. Aunque resulte algo paradójico es perfectamente constatable. Se
+                trata de mantener la celebración dada su popularidad y raigambre, pero eliminando a las hermandades, que son
+                asociaciones ilegales a la luz de las disposiciones oficiales del Consejo de Castilla...aunque lo cierto y verdad es que
+                eran los propios cofrades de cada hermandad los que seguían organizando las procesiones, aunque sin identidad
+                corporativa alguna. Evidentemente las procesiones de Semana Santa eran algo connatural al pueblo y no resultaba prudente
+                suspenderlas, por lo que se optó por suprimir a las instituciones que conformaban esta religiosidad, tratando de privar
+                a estas manifestaciones de una estructura organizativa e ideológica que no parecía a las autoridades congruente con la
+                religión "utilitaria" que convenía a las gentes.</p>
+                
+                <p>Me inclino a pensar, concluyendo, que estas medidas ilustradas coinciden con una grave crisis de la religiosidad
+                popular, que es general en Andalucía dentro de una fase de transición hasta asentarse de nuevo en una sociedad cambiante
+                y en búsqueda asimismo de una nueva configuración en su estructura socio-económica, política y mental. No existen datos
+                muy concretos sobre otras poblaciones gaditanas, ni en el mismo Cádiz, pero estimo que la situación no debió no debió
+                ser muy diferente, aunque sin la radicalidad de Jerez. Así la Hermandad de la Vera Cruz en Cádiz, que había atravesado
+                un gran período de expansión en el siglo XVIII, se debilita notablemente en sus años finales y prácticamente se
+                extingue. En el propio ámbito de Jerez, Arcos de la Frontera, la incidencia tuvo lugar a partir de 1783, es decir, que
+                no le afectaron las disposiciones de 1772 sobre Jerez y sus consecuencias no fueron determinantes, pues aunque fueron
+                disueltas dos hermandades, no tardaron éstas en superar la situación.</p>
+                
+                <p>Comienza así la contemporaneidad para la Semana Santa, con una evidente inquietud entre las cofradías, pero en la misma
+                línea de arraigo popular del Barroco.</p>
+                <h4 id="item-1.4">El siglo XIX</h4>
+                <hr>
+                <p>Se trata de un período de transición en donde las cofradías se asientan en la nueva sociedad que, sin embargo, permanece
+                bastante identificada con ellas, a pesar de algunas etapas críticas, como se verá. Hay una dependencia ciertamente
+                estrecha de las cofradías respecto del ordinario civil, originándose casos aparentemente extraños en los que la
+                restauración de una cofradía la lleve a efecto la disposición de un alcalde, que aprueba sus Reglas; ciertamente su
+                situación jurídica no fue totalmente conforme hasta que se produjo la confirmación de la autoridad eclesiástica, pero lo
+                cierto fue que la primera disposición civil hizo posible su vida activa. Fue el caso de la Hermandad de la Vera Cruz de
+                Cádiz en 1845.</p>
+                <p>En los primeros años de este siglo se asiste a un cierto mantenimiento de la situación de decadencia de finales del
+                XVIII. La invasión napoleónica incide en esta crisis. En San Fernando se constata que la Hermandad de la Expiración se
+                extingue voluntariamente ante el hecho de que todos los miembros de su junta de gobierno decidieran incorporarse a la
+                lucha armada contra los franceses y es que se trataba de una corporación donde los cofrades más representativos
+                pertenecían a la nobleza de la Armada.</p>
+                <p>A partir de los años 20, en coincidencia con el Trienio Liberal, se emiten una serie de nuevas medidas restrictivas, a
+                las que se unen las campañas desamortizadoras posteriores, que afectan a no pocas sedes canónicas de hermandades.</p>
+                <p>A mediados de la centuria se observa una tímida revitalización. Es la época en la que el alcalde de Jerez aprueba las
+                Reglas del Nazareno y se restaura la cofradía del Mayor Dolor y en Cádiz la Vera Cruz y Columna y Azotes. En el ámbito
+                nacional se firma el Concordato con la Santa Sede por el gobierno liberal. Se documenta igualmente la celebración de las
+                ceremonias de las Tres Caídas, Descendimiento y Sermón de Pasión por la Hermandad del Desconsuelo de Jerez. Tras este
+                período, se produce la coyuntura relacionada con la Revolución de 1868. En Cádiz ninguna cofradía realizó estación salvo
+                la de Jesús Nazareno.</p>
+                <p>Tras este intervalo, el último tercio de siglo experimenta la reorganización generalizada de las cofradías y de la
+                Semana Santa que continuará hasta los años 20 del presente siglo. Respecto a esta época hay que señalar en primer lugar
+                el hecho de que la jerarquía eclesiástica recupera el control efectivo de las cofradías. Así en Cádiz, el obispo Catalán
+                y Arbosa intenta revitalizar el culto externo en 1881, lográndose la recuperación de diversas procesiones de Semana
+                Santa. Por otra parte, el cardenal Spínola, arzobispo de Sevilla, emprende una labor de reordenación de estas
+                instituciones, sometiéndolas más directamente a su autoridad. Es como una reasunción de competencias perdidas tras un
+                largo período de omisión en favor del regalismo del poder civil. Todo ello se recoge en una circular de 1899 publicada
+                en el Boletín del Arzobispado. LO cierto y verdad es que coincide esta revitalización cofradiera con la intervención
+                efectiva de la autoridad eclesiástica. De hecho, el clero interviene activamente en esta etapa, siendo incluso
+                co-fundadores o co-restauradores de varias hermandades.</p>
+                <p>Por otro lado, según Repetto, parece observarse una reactivación de las hermandades con el único objeto de la salida
+                procesional, es decir, serían sólo asociaciones procesionales y lo achaca a las medidas ilustradas del XVIII. Es difícil
+                precisar tal aserto. En Cádiz se detecta un fenómeno parecido cuando en 1889 se constituye una junta de priostes y
+                mayordomos que pidieron apoyo económico al vecindario, recibiendo el de las autoridades civiles. Se crea así la Junta de
+                Procesiones. Habría que estudiar mejor las hermandades y comprobar si realmente no existía una vida interna o
+                simplemente que se dedicaba una atención especial a la procesión de Semana Santa, que en Cádiz se nutre de elementos
+                alegóricos, con lo que parece que esta última opción puede ser válida, incluso desde el punto de vista de Repetto,
+                aunque el caso de Jerez es diferente.</p>
+                <p>Es ya observable una paulatina recuperación de las cofradías tras una larga transición, que salvo la coyuntura de la
+                Guerra Civil irá en aumento. Al igual que el absolutismo ilustrado, los gobiernos liberales desarrollarán una política
+                diversa respecto a las cofradías, predominando el intervencionismo, sin que esto signifique un cambio de postura del
+                Estado respecto a ellas, sino que se continua en la línea ilustrada de laicización de la sociedad; sólo que con los
+                liberales la Iglesia pasa de sometida o aliada incondicional a estar separada de hecho del poder, detectándose una
+                actitud contraria que prende en parte del pueblo, sobre todo en las capas más humildes y en el incipiente proletariado,
+                que es el anticlericalismo, que va a afectar también a las cofradías por el clima de temor que provoca en los ámbitos
+                eclesiales y que se hacen palpables en los momentos de radicalización de los partidos progresistas y en la Revolución de
+                1868, preludiando los acontecimientos posteriores de la II República.</p>
+                <h5 id="item-1-5">El siglo XX</h5>
+                <hr>
+                <p>En la época contemporánea es el siglo XX el de mayor apogeo del fenómeno cofradiero y de la Semana Santa, al menos
+                    desde un punto de vista cuantitativo, con una creciente masificación que tiende hoy en día a desvirtuar el sentido de la
+                    celebración y que es consecuencia de un proceso paulatino motivado en parte por una serie de coyunturas favorables
+                    objetivamente.</p>
+                <p>Así, tras un resurgir y mantenimiento en los años 20, el fenómeno parece declinar un tanto y aletargarse durante la
+                    II República por factores coyunturales bien tristes como asaltos o persecuciones a edificios y personas relacionadas
+                    con la Iglesia y subjetivos derivados de aquellos. No obstante, tras una incertidumbre y temor justificados, las cofradías
+                    vuelven de nuevo a salir en los años anteriores a 1936, interrumpiéndose este año, pero no los siguientes al
+                    integrarse la provincia de Cádiz muy pronto en el territorio de las tropas de Franco.</p>
+                <p>Habría que profundizar en las circunstancias de esta época en relación con las cofradías. Es esa cuestión del miedo
+                    real que se palpaba entre los cofrades y que ha analizado en el caso de Sevilla el profesor Domínguez León y que está
+                    relacionado con la cuestión política. Siempre he pensado que las cofradías están bien arraigadas en el pueblo y no
+                    suelen actuar al dictado de ideologías por cuanto su base es heterogénea socialmente. Esto no quiere decir que sus
+                    dirigentes no lo pudieran hacer, lo que se puede constatar, como también que cofrades bien caracterizados
+                    contrastasen en ideología con los que forman la junta de gobierno de su cofradía. Gracias a ello, ha sido posible su secular
+                    pervivencia en las más adversas condiciones. Tampoco quiero decir que no se vieran utilizadas por estas mismas
+                    ideologías, incluso en propagandas políticas de la época de la II República y Guerra Civil. Desgraciadamente los
+                    trabajos de la Semana Santa de Cádiz y Jerez no insisten en este período y se limitan a narrar los hechos lastimosos
+                    de muchas cofradías afectadas e imágenes y enseres por asaltos a sus sedes, que fueron numerosos. Pueden igualmente
+                    señalarse casos puntuales en el aspecto negativo tales como el de los nazarenos de la Hermandad de la Buena Muerte
+                    de Cádiz que hubieron de soportar que en parte de su itinerario les colocaran tachuelas en las calles a sabiendas de
+                    que la mayoría iban descalzos...o el triste suceso ocurrido en Sanlúcar de Barrameda donde las procesiones y sus
+                    integrantes fueron perseguidos a pedradas por las calles.</p>
+                <p>Tras la ocupación de las tropas de Franco y, sobre todo, a partir de la terminación de la Guerra, se vive un clima
+                    exacerbado de nacional-catolicismo que impregna todas las facetas de la vida ordinaria. Es muy importante el número
+                    de cofradías que tienen su origen en los años 40 igualando al de las antiguas. El ambiente se hace propicio para estas
+                    nuevas fundaciones o restauraciones en una Semana Santa que adquiere pomposo realce.</p>
+                <p>La antigua alianza entre el trono y el altar parece reverdecer por el apoyo de la jerarquía católica al régimen de
+                    Franco tanto en la Guerra (que es declarada como Cruzada por la inmensa mayoría de los obispos) como en la
+                    posguerra. Las cofradías también se involucran en esta dinámica y es general la asistencia de autoridades civiles y militares a
+                    las procesiones ocupando lugares de preeminencia así como con la concesión de cargos honoríficos. Se trata de un tipo de
+                    hermandad excesivamente orientada hacia lo externo en pro de esa religiosidad un tanto sociológica que se vive en
+                    estos momentos tras una contienda fratricida.</p>
+                <p>Un fenómeno derivado de este nacional-catolicismo fue el que tuvo lugar en Cádiz y también en otras poblaciones en
+                    los años 50 cuando las cofradías atravesaron una grave crisis económica que hacía peligrar las salidas procesionales. Se
+                    generó entonces una campaña de concienciación pública en la que intervinieron activamente los poderes civiles y
+                    económicos, organizándose una especie de patronatos dirigidos por entidades gubernamentales, empresa, sindicatos y
+                    también cuerpos militares. Así, por ejemplo, en La Línea de la Concepción una hermandad estaba integrada en la Real
+                    Balompédica Linense.</p>
+                <p>Este incremento de procesiones continua en los años posteriores tanto en las capitales de las diócesis como en el
+                    resto de las poblaciones hasta asentarse en los años 60 y 70, aunque en la actualidad sigue muy viva la inquietud de
+                    fundar nuevas cofradías, pero ya las motivaciones son mucho más variadas, observándose un mayor incremento de la
+                    espiritualidad interna, de la vida activa durante todo el año, mayor dedicación a la formación, catequesis y obras
+                    asistenciales...y todo esto hay que relacionarlo con el influjo renovador del Concilio Vaticano II y sus aplicaciones concretas en las
+                    diócesis a estudio que si, en un principio, fueron recibidas con no pocos recelos en los ámbitos cofrades, poco a
+                    poco se han ido asumiendo y adaptando a la idiosincrasia propia de cada corporación aunque con un creciente espíritu
+                    eclesial. Igualmente todo ello va unido a un progresivo desarraigo de la Iglesia frente a los estamentos civiles. Es
+                    ahora cuando comienza el fenómeno de los grupos jóvenes que en cierta medida vienen a purificar la excesiva
+                    superficialidad de las hermandades, sus ímpetus exclusivos de cara a la Semana Santa y van a potenciar esas otras
+                    nuevas cofradías más austeras y penitenciales. Es un fenómeno interesante que se da en toda Andalucía occidental con
+                    Sevilla como pionera...que surge como reacción al tipo comentado de hermandades con una religiosidad demasiado externa y
+                    festiva, sociológica...tras una dura etapa de represión.</p>
+                <p>Esta es la situación actual, en búsqueda de una identidad en los nuevos esquemas de la sociedad, con una mayor
+                    eclesialidad en sus cuadros dirigentes, aunque sin abandonar nunca la autonomía que ha sido fundamental para
+                    conservar el arraigo popular. La cofradía se sigue consolidando como instancia natural de la religión del pueblo, concebido
+                    como comunidad de ideales y esperanza.</p>
+                <p>Precisamente esta personalidad tan marcada de las cofradías originan algunos problemas en ambas diócesis con la
+                    jerarquía porque resulta muy difícil uniformar criterios respecto a ellas y es muy variopinta la mentalidad de sus
+                    cofrades y su actitud respecto a la Iglesia institucional, aunque generalmente la sumisión a la jerarquía es
+                    permanente. No obstante parece que en los últimos años se tiende a una mayor comprensión de la religiosidad popular por parte de
+                    los obispos e incluso del Papa en sus visitas a Andalucía, pero todavía con demasiados recelos y prejuicios de marcadas
+                    raíces históricas.</p>
+                <p>A pesar de todo, es indudable que en ambas diócesis las cofradías han estado permanentemente muy estrechamente unidas
+                    a la base de la población y en muchos aspectos han sido y son algo más que unas asociaciones religiosas tradicionales,
+                    pues se constituyen en signos fidedignos de la religiosidad vivida por las poblaciones de Cádiz y de Andalucía en
+                    general.</p>
+                <h5 id="item-2">Fechas fundacionales de las cofradias gaditanas</h5>
+                <hr>
+                <h5 id="item-2-1">Siglo XVI</h5>
+                <hr>
+                <ul>
+                    <li>LA VERA-CRUZ en 1566. Siempre en San Francisco, donde ocupa capilla propia desde el 22 de julio de 1579.</li>
+                    <li>EL NAZARENO entre 1592 y 1598 en San Francisco. En 1616 se traslada al monasterio de Santa María, donde ocupa capilla
+                    propia.</li>
+                    <li>EL SANTO ENTIERRO a finales del siglo XVI en San Francisco, trasladándose en 1926 a Santa Cruz.</li>
+                </ul>
+                <h5 id="item-2-2">Siglo XVII</h5>
+                <hr>
+                <ul>
+                    <li>LA HUMILDAD Y PACIENCIA en 1627 en San Agustín, donde permanece ocupando capilla propia desde el 2 de abril de 1694.</li>
+                    <li>LA COLUMNA el 18 de abril de 1660. Erección Canónica el día 23 de abril del mismo año, fusionándose con la de la
+                    Santísima Resurrección, fundada en 1656, el día 17 de abril de 1662. Continúa en San Antonio, donde cuenta con capilla
+                    propia.</li>
+                    <li>LA EXPIRACIÓN en 1564 en San Antonio. Extinguida en los finales del siglo XVII, su imagen titular sigue recibiendo culto
+                    en la Iglesia de San Francisco.</li>
+                    <li>EL PRENDIMIENTO en 1685 en la Iglesia de las Descalzas de Nuestra Señora de la Piedad. Extinguida a mediados del siglo
+                    XIX, la imagen del Santo Cristo, sigue recibiendo culto en la iglesia de las Descalzas.</li>
+                    <li>EL ECCE-HOMO a mediados del siglo XVII en el Oratorio de la Orden Tercera de la calle San Pedro, pasando a la Iglesia de
+                    la Conversión de San Pablo en el siglo XVIII ocupando la imagen del Señor la hornacina central del Altar Mayor,
+                    privilegio que se le concede por las ayudas prestadas por la Hermandad en las obras de ampliación de la Iglesia.</li>
+                    <li>EL DESCENDIMIENTO en 1666 en la Candelaria. Ya en 1669 (18 de junio) tenía la Hermandad personalidad jurídica. La Sede
+                    actual es la Parroquia de San Lorenzo.</li>
+                </ul>
+                <h5 id="item-2-3">Siglo XVIII</h5>
+                <hr>
+                <ul>
+                    <li>LOS AFLIGIDOS, en 1726. Es fundada por el Obispo Armengual de la Mota en la Parroquia de San Lorenzo, fundación también
+                    del mismo prelado, donde continúa.</li>
+                    <li>LOS SERVITAS. El día 12 de marzo de 1727 se firma la Bula de fundación otorgada en Roma, siendo el 22 de mayo de 1731 la
+                    confirmación de las Reglas. Es otra fundación del Obispo Armengual y ocupa capilla propia desde el 25 de marzo de 1774
+                    en la referida parroquia donde continúan los Servitas gaditanos venerando a su patrona.</li>
+                    <li>LA PIEDAD. Se funda en 1724 en la ermita de Santa Catalina. El 22 de mayo de 1758 se redactan unas nuevas Reglas y ya
+                    aparece en la Iglesia de Santiago, donde sigue.</li>
+                    <li>LA SALUD. A finales del siglo XVIII se sabe que ya existía como Cofradía en la Iglesia de Santo Domingo. En1912 se
+                    reorganiza, continuando en el mismo templo.</li>
+                    <li>LAS ANGUSTIAS. Las reglas y constituciones de esta cofradía fueron aprobadas en febrero de 1732 por el Obispo Fray Tomás
+                    del Valle en la capilla del Caminito. Es reorganizada en 1934 y se redactan nuevas reglas el22 de enero de 1935.</li>
+                </ul>
+                <h5 id="item-2-4">Siglo XIX</h5>
+                <hr>
+                <ul>
+                    <li>LA BUENA MUERTE. Fue fundada en 1894 en San Agustín, celebrando sus primeras elecciones el 4 de diciembre de 1895. Es la
+                    única corporación de penitencia que se funda en Cádiz a lo largo de este siglo tan cargado de incidencias políticas.</li>                   
+                </ul>
+                <h5 id="item-2-5">Siglo XX</h5>
+                <hr>
+                <ul>
+                    <li>EL PERDÓN. El día 9 de marzo de 1935 se funda esta hermandad en la Iglesia de la Merced con el objeto de dar culto al
+                    Cristo de Sopranis, así llamado por haber pertenecido a esta familia, pero que su advocación era la del Perdón. La
+                    imagen, de la que se cuenta mucho y bueno, fue pasto de las llamas cuándo el incendio del templo mercedario en 1936. El
+                    28 de mayo de 1939 se bendice una nueva escultura del crucificado y queda establecida la sede canónica en la parroquia
+                    de Santa Cruz por un decreto que firma el prelado D. Tomás Gutiérrez Díaz el 29 de mayo de 1949.</li>
+                    <li>MEDINACELI. Aunque los primeros cultos , efectuados en la Iglesia del convento de las Descalzas, datan de1936 (6 de
+                    marzo) se realizaban ante un cuadro propiedad del matrimonio Campe, es en 1937 cuándo se cifra la fundación de esta
+                    hermandad en la Parroquia de Santa Cruz donde queda erigida canónicamente.</li>
+                    <li>LA MISERICORDIA. Es fundada en febrero de 1938 en la Parroquia de la Palma. En 1947 es erigida canónicamente en dicha
+                    parroquia, fusionándose en 1968 con la muy antigua de la Palma, fundada en 1691.</li>
+                    <li>LA EXPIRACIÓN. En 1938 en San Lorenzo. En 1977, pasa a la Iglesia del Santo Ángel Custodio, con el permiso del párroco
+                    de San Lorenzo depositario de la imagen.</li>
+                    <li>LA SENTENCIA. En 1939 en la iglesia de las agustinas de la Candelaria, siendo erigida canónicamente el día 1 de marzo de
+                    1946. En 1950 toma como sede canónica la Iglesia de la Merced.</li>
+                    <li>JESÚS DE LA PAZ. En 1944 en la Parroquia de San José. La erección canónica tiene lugar el mismo año, el día6 de agosto.
+                    La sede actualmente es un oratorio dedicado a los titulares, haciendo la salida procesional desde la cercana iglesia del
+                    Carmen.</li>
+                    <li>JESÚS CAÍDO. En 1941 en la Iglesia del Convento del Carmen, siendo aprobados los estatutos el 19 de octubre de 1944.
+                    Desde el día 19 de marzo de 1962, la sede canónica la tiene en su capilla propia de Jesús Caído.</li>
+                    <li>LAS AGUAS. En 1944, siendo aprobados los estatutos en noviembre del mismo año. Se funda en la Iglesia Parroquial de San
+                    Antonio. Actualmente tiene su sede canónica en el Oratorio de San Felipe Neri.</li>
+                    <li>LAS SIETE PALABRAS. En 1944, en el Oratorio Bajo de la Santa Cueva. Reorganizada en 1983 y con nuevas imágenes, su sede
+                    actual la tiene en la Iglesia de la Merced.</li>
+                    <li>LA SANIDAD. En 1946 (19 de junio) en la Parroquia de Santa Cruz, donde permanece.</li>
+                    <li>NAZARENO DEL AMOR. El día 1 de noviembre de 1951, siendo aprobada por la autoridad Eclesiástica el día 8del mismo mes y
+                    año, con sede en el Convento de San Francisco.</li>
+                    <li>ECCE-MATER TUA. En 1953 por las Congregaciones Marianas en la Iglesia de Santiago.</li>
+                    <li>JESÚS DE LAS PENAS. En 1954 se crea una junta pro-cultos, siendo aprobada mediante decreto de la autoridad Eclesiástica
+                    el día 23 de noviembre de 1955. Es fundada y permanece en la Parroquia de San Lorenzo. En 1977 se fusiona con la del
+                    Pilar, fundada en 1730 por el obispo Armengual de la Mota.</li>
+                    <li>LA ORACIÓN EN EL HUERTO. El día 25 de mayo de 1955 se crea una junta organizadora para el Culto con la intención de
+                    tener la sede en la Parroquia de San José. La erección canónica es en 1961, y la actual sede laParroquia de San
+                    Severiano.</li>
+                    <li>LA SANTA CENA. Es fundada y tiene lugar la erección canónica el día 6 de junio de 1960 en la Iglesia Conventual de Santo
+                    Domingo.</li>
+                    <li>EL PRENDIMIENTO. Se funda el 27 de abril de 1976, siendo erigida canónicamente el día 19 de enero de1979, fusionándose
+                    con La Real Congregación de la Vela y Mayor Culto a Jesús Sacramentado, fundada en1792, el día 28 de abril de 1979,
+                    teniendo su sede en la Capilla del Beato Diego José de Cádiz.</li>
+                </ul>
+                <h5 id="item-2-6">Siglo XXI</h5>
+                <hr>
+                <ul>
+                    <li>EL DESPOJADO. La Hermandad se funda el día 15 de mayo de 2007 por decreto del Obispo Diocesano Monseñor Antonio Ceballos
+                    Atienza, dándose a conocer el día 20 de mayo en la Iglesia de María Auxiliadora. Su primera Junta de Gobierno toma
+                    posesión el día 3 de junio siendo su primer Hermano Mayor Luis Manuel Rivero Ramos y su Director Espiritual el Reverendo
+                    Padre José Antonio Perdigones, SDB.</li>
+                </ul>
+                <h5 id="item-3">Galeria</h5>
+                <hr>
+                <div class="galeria-ss-cc">
+                    <img src="media/carnavalsemanasanta/LaPalma.jpg" alt="..." class="img-thumbnail">
+                    <img src="media/carnavalsemanasanta/PENAS05_1_0.jpg" alt="..." class="img-thumbnail">
+                    <img src="media/carnavalsemanasanta/la-palma-no-teme-al-agua.jpg" alt="..." class="img-thumbnail">
+                    <img src="media/carnavalsemanasanta/descendimiento08-7.jpg" alt="..." class="img-thumbnail">
+                    <img src="media/carnavalsemanasanta/Nuestro-Padre-Jesús-del-Amor-Despojado-en-su-paso-de-misterio-620x300.jpg" alt="..." class="img-thumbnail">
+                    <img src="media/carnavalsemanasanta/borriquita.jpg" alt="..." class="img-thumbnail">
+                </div> 
+                <h5 id="item-4">Videos</h5>
+                <hr> 
+                <div class="videos-ss-cc">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/moDYDxcpQfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Mv0Blc_NVc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__rights">
+                <p>AndresAleu © All rights reserved</p>
+            </div>
+            <div class="footer__image">
+                <img src="media/RRSS/facebook.png">
+                <img src="media/RRSS/instagram.png">
+                <img src="media/RRSS/twitter.png">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

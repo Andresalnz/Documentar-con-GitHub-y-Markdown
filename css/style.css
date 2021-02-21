@@ -1,0 +1,121 @@
+.body{
+   background: linear-gradient(70deg,rgb(63, 36, 90),rgb(219, 200, 238));
+}
+
+span{
+   font-weight: bold;
+}
+
+.card-body p{
+   text-align: justify;
+}
+
+/*Estilo a los apartados del menu*/
+.navbar-light .navbar-nav .nav-link {
+   font-family:'Times New Roman', Times, serif;
+   font-size: 18px;
+   }
+
+/*Estilo al contenido del acordeon del index*/
+.acordeon{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 18px;
+}
+
+/*Estilo imagenes de las redes sociales*/
+.redes-sociales img{
+   height: 20px;
+}
+
+/*posicion de tdas las tarjetas del index */
+.tarjetas{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top:110px; 
+}
+
+/*Estilo a cada una de las tarjetas del index*/
+.tarjetas .card{
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+}
+
+.tarjetas .card p{
+   width: 220px;
+}
+
+
+
+
+
+
+/*************Calles,plazas y museos***********************/
+
+/*posicion del submenu*/
+.submenu{
+   margin:35px 0px 35px 0px;
+   font-family:'Times New Roman', Times, serif;
+   font-size: 18px;
+}
+
+.tarjetas-calles-plazas-museos{
+   display: flex;
+   flex-direction: column;
+}
+
+.calles-plazas-museos{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top:20px;
+}
+
+.tarjetas-calles-plazas-museos h5, p{
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+}
+
+.card a{
+   display:flex;
+   justify-content: center;
+}
+
+/*************Semana santa y carnaval****************/
+/*Apartado de galeria de semana santa y carnaval*/
+.galeria-ss-cc {
+   display: flex;
+   flex-direction: row;
+}
+/*imagenes de galeria semana santa y carnaval*/
+.galeria-ss-cc img{
+   height: 100px;
+   margin-left: 30px;
+}
+
+/*vides de semana santa y carnaval*/
+.videos-ss-cc{
+   display: flex;
+   flex-direction: row;
+}
+
+.videos-ss-cc iframe{
+   margin-right: 20px;
+}
+
+/****************footer******************/
+
+.footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 60px;
+   background-color: antiquewhite;
+   height: 35px;
+   
+}
+
+.footer__image img{
+   height: 20px;
+}
+
