@@ -31,7 +31,7 @@ podremos navegar por los diferentes puntos para conocer la historia y conocer un
 
 ## Uso del proyecto
 
-Este proyecto fue utilizado como actividad final de lenguages de maraca, asignatura de 1º de DAW.
+Este proyecto fue utilizado como actividad final de lenguages de marcas, asignatura de 1º de DAW.
 
 
 
