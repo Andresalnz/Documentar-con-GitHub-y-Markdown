@@ -4,7 +4,7 @@
 
 * HTML5
 * CSS
-* Libreria Boostrap
+* Libreria Bootstrap 
 
 ## Descripcion
 
