@@ -25,11 +25,11 @@ calles, plazas o museos.
 Habiendo un botón de mas información en cada recuadro, que nos enlazará
 a una web oficial donde poder indagar mas sobre el lugar que queramos.
 
-Tambien en la pagina principal enontramos dos recuadros sobre carnaval y semana santa
-con un boton al cual si clicamos nos  con otra pagina donde a traves de un indice
-podremos navegar por los diferentes puntos para conocer la historia y conocer un pococ mejor el carnaval o la semana santa.
+También en la pagina principal enontramos dos recuadros sobre carnaval y semana santa
+con un boton el cual, si lo clicamos nos llevará a otra pagina donde a traves de un indice
+podremos navegar por los diferentes puntos para conocer la historia y conocer un poco mejor el carnaval o la semana santa.
 
-## Uso del protyecto
+## Uso del proyecto
 
 Este proyecto fue utilizado como actividad final de lenguages de maraca, asignatura de 1º de DAW.
 
